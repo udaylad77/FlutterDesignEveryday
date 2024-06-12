@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Design Demo',
         debugShowCheckedModeBanner: false,
-        theme:
-            ThemeData(brightness: Brightness.light, primaryColor: Colors.blue),
+        theme: ThemeData(
+            brightness: Brightness.light, primaryColor: Colors.blue.shade500),
         home: const LoginPageFlutter());
   }
 }
